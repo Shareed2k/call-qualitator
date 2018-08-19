@@ -1,0 +1,34 @@
+{
+  "name": "shareed2k/call-qualitator",
+  "authors": [
+    {
+      "name": "Roman Kredentser",
+      "email": "shareed2k@gmail.com"
+    }
+  ],
+  "version": "dev-develop",
+  "description": "package under development",
+  "autoload": {
+    "psr-4": {
+      "Shareed2k\\CallQualitator\\": "src"
+    }
+  },
+  "require": {
+    "shareed2k/itest": "^0.1"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Shareed2k\\CallQualitator\\CallQualitatorServiceProvider"
+      ],
+      "aliases": {
+        "Socialite": "Shareed2k\\CallQualitator\\Facades\\Qualitator"
+      }
+    }
+  }
+}
