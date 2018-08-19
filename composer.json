@@ -6,7 +6,6 @@
       "email": "shareed2k@gmail.com"
     }
   ],
-  "version": "dev-develop",
   "description": "package under development",
   "autoload": {
     "psr-4": {
